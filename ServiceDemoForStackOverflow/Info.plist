@@ -2,6 +2,24 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>NSServices</key>
+	<array>
+		<dict>
+			<key>NSPortName</key>
+			<string>ServiceDemoForStackOverflow</string>
+			<key>NSSendTypes</key>
+			<array>
+				<string>NSStringPboardType</string>
+			</array>
+			<key>NSMessage</key>
+			<string>service</string>
+			<key>NSMenuItem</key>
+			<dict>
+				<key>default</key>
+				<string>ServiceDemoForStackOverflow</string>
+			</dict>
+		</dict>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleExecutable</key>

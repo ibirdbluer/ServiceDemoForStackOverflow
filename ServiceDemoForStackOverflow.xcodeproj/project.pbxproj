@@ -11,6 +11,7 @@
 		4F965600212D3FB900E3577B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F9655FF212D3FB900E3577B /* ViewController.swift */; };
 		4F965602212D3FBA00E3577B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F965601212D3FBA00E3577B /* Assets.xcassets */; };
 		4F965605212D3FBA00E3577B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F965603212D3FBA00E3577B /* Main.storyboard */; };
+		4F96560E212D3FCA00E3577B /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F96560D212D3FCA00E3577B /* ServiceProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		4F965604212D3FBA00E3577B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F965606212D3FBA00E3577B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4F965607212D3FBA00E3577B /* ServiceDemoForStackOverflow.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ServiceDemoForStackOverflow.entitlements; sourceTree = "<group>"; };
+		4F96560D212D3FCA00E3577B /* ServiceProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			children = (
 				4F9655FD212D3FB900E3577B /* AppDelegate.swift */,
 				4F9655FF212D3FB900E3577B /* ViewController.swift */,
+				4F96560D212D3FCA00E3577B /* ServiceProvider.swift */,
 				4F965601212D3FBA00E3577B /* Assets.xcassets */,
 				4F965603212D3FBA00E3577B /* Main.storyboard */,
 				4F965606212D3FBA00E3577B /* Info.plist */,
@@ -133,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F96560E212D3FCA00E3577B /* ServiceProvider.swift in Sources */,
 				4F965600212D3FB900E3577B /* ViewController.swift in Sources */,
 				4F9655FE212D3FB900E3577B /* AppDelegate.swift in Sources */,
 			);
